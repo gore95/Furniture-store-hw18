@@ -139,12 +139,12 @@ h4 {
 #categoryGrid{
   margin: 0px 5%;
   display: grid;
-  grid-template-rows:  300px 300px; 
-  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows:  300px 300px 300px; 
+  grid-template-columns:1fr 1fr 1fr;
   grid-template-areas: 
   "bookcases" "bedroom" "patio"
   "couches" "couches" "patio"
-  "desk" "desk" "desk";
+  "desks" "desks" "desks";
 }
 
 #bookcases{
@@ -164,7 +164,7 @@ background-image: url(https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202209/0
 background-image: url(https://secure.img1-fg.wfcdn.com/im/46229999/resize-h600-w600%5Ecompr-r85/1419/141980869/Twin+66.1%27%27+Wide+Tufted+Back+Convertible+Sofa.jpg);
 }
 
-#desk {
+#desks {
   background-image: url(https://pyxis.nymag.com/v1/imgs/dd5/c89/a9b576bce60fbd4b1eec939e4860d0b380-680b6a2aaeb898f0c0cd2ab5162b14880a71e321.2x.rsocial.w600.jpg);
 }
 
