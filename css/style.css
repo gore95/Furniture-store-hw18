@@ -14,22 +14,22 @@ display: grid;
 grid-template-rows:75% 25%;
 grid-template-columns:75% 25%;
 grid-template-areas:
-"featureProduct" "secondaryProduct"
-"featureProduct" "CTA";
+"featureProduct secondaryProduct"
+"featureProduct CTA";
 }
 
 #featuredProduct{
-  grid-area: "featureProduct";
+  grid-area: featureProduct;
   background-image: url(https://i.pinimg.com/736x/48/da/53/48da53cd06de20ffc5d4a2355559864c--chesterfield-couch-tufted-couch.jpg);
 }
 
 #secondaryProduct{
-  grid-area: "secondaryProduct";
+  grid-area: secondaryProduct;
   background-image: url(https://www.refinery29.com/images/10826698.png) ;
 }  
 
 #CTA{
-  grid-area: "CTA";
+  grid-area: CTA;
   background-image: url(https://cdn.pixabay.com/photo/2016/09/28/13/56/wood-1700562_960_720.jpg) ;
   justify-content: space-around;
   cursor: pointer;
@@ -139,12 +139,12 @@ h4 {
 #categoryGrid{
   margin: 0px 5%;
   display: grid;
-  grid-template-rows:  300px 300px 300px; 
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px; 
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
-  "bookcases" "bedroom" "patio"
-  "couches" "couches" "patio"
-  "desks" "desks" "desks";
+  "bookcases bedroom patio"
+  "couches couches patio"
+  "desks desks desks";
 }
 
 #bookcases{
@@ -168,7 +168,7 @@ background-image: url(https://secure.img1-fg.wfcdn.com/im/46229999/resize-h600-w
   background-image: url(https://pyxis.nymag.com/v1/imgs/dd5/c89/a9b576bce60fbd4b1eec939e4860d0b380-680b6a2aaeb898f0c0cd2ab5162b14880a71e321.2x.rsocial.w600.jpg);
 }
 
-#categoryGridArea {
+.categoryGridArea {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ background-image: url(https://secure.img1-fg.wfcdn.com/im/46229999/resize-h600-w
   align-content: end;
 }
 
-#heading{ 
+.heading{ 
   background-color:rgba(0,0,0,0.7);
   padding: 15px;
   height: 25px;
